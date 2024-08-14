@@ -107,7 +107,7 @@
   width: 100%;
   height: calc(100vh - 80px);
   overflow: hidden;
-  min-width: 1600px;
+  min-width: 500px;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #fff;
