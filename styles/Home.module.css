@@ -88,11 +88,15 @@
   .grid {
     width: 100%;
     flex-direction: column;
+    flex-grow: 1;
+    flex-basis:0;
   }
 }
 
 .grid {
   display: flex;
+  flex-grow: 1;
+  flex-basis:0;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -118,6 +122,8 @@
 
 .messagesContainer {
   flex: 1;
+  flex-grow: 1;
+  flex-basis:0;
   padding: 20px;
   overflow: auto;
   border-bottom: 1px solid #ccc;
