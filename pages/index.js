@@ -124,6 +124,12 @@ export default function Home() {
           </div>          
       </main>
 
+      <footer>
+        <div class="footer-content">
+            <p>© 2024 Nahom Geda. All rights reserved.</p>
+        </div>
+      </footer>
+
 
       <style jsx>{`
         main {
@@ -158,6 +164,16 @@ export default function Home() {
         }
         * {
           box-sizing: border-box;
+        },
+
+        footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+          position: fixed;
+          width: 100%;
+          bottom: 0;
         }
       `}</style>
     </div>
