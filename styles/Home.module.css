@@ -104,9 +104,11 @@
 .chatContainer {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  flex-basis:0;
   width: 100%;
   height: calc(100vh - 80px);
-  overflow-y: auto;
+  overflow-y: scroll;
   min-width: 500px;
   border: 1px solid #ccc;
   border-radius: 10px;
