@@ -107,7 +107,7 @@ export default function Home() {
           <div className={styles.messagesContainer}>
             {messages.map((message) => (
               <div key={message.id} className={message.sender === 'bot' ? styles.botMessage : styles.userMessage}>
-                {loading && <ClipLoader size={50} color="#3f3e3e"/>}
+                {loading && <ClipLoader size={15} color="#3f3e3e"/>}
                 {message.sender === 'bot' ? (
                     <div dangerouslySetInnerHTML={{ __html: message.text }} />
                   ) : (
