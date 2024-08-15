@@ -75,7 +75,7 @@ export default function Home() {
           setMessages([...messages, newMessage]);
           setInput('');
 
-          const botMessageText = await getBotResponse(`Help me create an email based on this and make it long email: ${input.trim()}`);
+          const botMessageText = await getBotResponse(`Help me create an email based on this: ${input.trim()}`);
           setLoading(false);
 
           setTimeout(() => {
